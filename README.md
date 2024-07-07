@@ -16,7 +16,7 @@ $ npm install
 ````
 Install Vite
 ````
-npm install Vite --save
+npm install vite --save
 ````
 Run the project:
 ````
