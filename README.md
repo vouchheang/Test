@@ -14,7 +14,6 @@ Install dependencies:
 ````
 $ npm install
 ````
-````
 Install Vite
 ````
 npm install Vite --save
