@@ -14,3 +14,17 @@ Install dependencies:
 ````
 $ npm install
 ````
+````
+Install Vite
+````
+npm install Vite --save
+````
+Run the project:
+````
+$ npm run dev
+````
+View the website at: http://localhost:5173
+Build the project:
+````
+$ npm run build
+````
