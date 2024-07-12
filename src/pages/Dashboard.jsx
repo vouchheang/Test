@@ -1,8 +1,8 @@
+// Dashboard.js
 import React, { useState, useEffect } from 'react';
-import {
-  getTotalFarmers,
-} from '../api/summary';
-import '../styles/Dashboard.css'
+import { getTotalFarmers } from '../api/summary';
+import '../styles/Dashboard.css';
+import Boxdashboard from '../components/Boxdashboard';
 
 
 
@@ -23,31 +23,15 @@ const Dashboard = () => {
   }, []);
 
   return (
-    <>
-    
-    
-      <div className="dashboard-container">
-        <h2>Overview</h2>
-        <div className="dashboard-stats">
-          <div className="dashboard-stat">
-            <h3>Total Farmers</h3>
-            <p>{totalFarmers}</p>
-          </div>
-          <div className="dashboard-stat">
-            <h3>Total Farmers</h3>
-            <p>{totalFarmers}</p>
-          </div>
-          <div className="dashboard-stat">
-            <h3>Total Farmers</h3>
-            <p>{totalFarmers}</p>
-          </div>
-          <div className="dashboard-stat">
-            <h3>Total Farmers</h3>
-            <p>{totalFarmers}</p>
-          </div>
-        </div>
+    <div className="dashboard-container">
+      <h2>Overview</h2>
+      <div className="dashboard-stats">
+        <Boxdashboard totalFarmers={totalFarmers} />
+        <Boxdashboard totalFarmers={totalFarmers} />
+        <Boxdashboard totalFarmers={totalFarmers} />
+        <Boxdashboard totalFarmers={totalFarmers} />
       </div>
-    </>
+    </div>
   );
 };
 
