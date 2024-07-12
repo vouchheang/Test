@@ -1,10 +1,15 @@
 import { Outlet } from 'react-router-dom';
-import Sidebar from './components/Sidebar';
+import Menu from './components/Menu';
 
 export default function Root() {
   return (
     <>
-      <Sidebar />
+    
+   
+
+     <Menu />
+    
+     
       <div id="detail">
         <Outlet />
       </div>
