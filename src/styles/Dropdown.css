@@ -1,0 +1,21 @@
+.App {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  .dropdown-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .dropdown-container select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #E3BEF4;
+  }
+  
