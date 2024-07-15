@@ -1,3 +1,4 @@
+import Footer from './components/Footer';
 import { Outlet } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 
@@ -8,6 +9,7 @@ export default function Root() {
       <div id="detail">
         <Outlet />
       </div>
+      <Footer/>
     </>
   );
 }
