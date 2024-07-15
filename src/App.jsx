@@ -1,3 +1,4 @@
+import Footer from './components/Footer';
 import { Outlet } from 'react-router-dom';
 import Menu from './components/Menu';
 
@@ -13,6 +14,7 @@ export default function Root() {
       <div id="detail">
         <Outlet />
       </div>
+      <Footer/>
     </>
   );
 }
