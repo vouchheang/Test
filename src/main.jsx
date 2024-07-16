@@ -7,7 +7,7 @@ import Account from "./pages/Accounts";
 import "./index.css";
 import App from "./App";
 import Farmland from "./pages/Farmland";
-
+import Cropcycles from "./pages/Crop-cycles";
 
 const router = createBrowserRouter([
   {
@@ -17,23 +17,24 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/dashboard",
-        element: <Dashboard />
+        element: <Dashboard />,
       },
       {
         path: "/farmers",
-        element: <Farmers />
+        element: <Farmers />,
       },
       {
         path: "/farmlands",
-        element: <Farmland />
+        element: <Farmland />,
       },
       {
         path: "/account",
-        element: <Account />
-      }
-    ]
-  },
+        element: <Account />,
+      },
 
+      { path: "/crop cylces", element: <Cropcycles /> },
+    ],
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
