@@ -3,6 +3,7 @@ import * as ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import Farmers from "./pages/Farmer";
+import Account from "./pages/Accounts";
 import "./index.css";
 import App from "./App";
 import Farmland from "./pages/Farmland";
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/farmlands",
         element: <Farmland />
+      },
+      {
+        path: "/account",
+        element: <Account />
       }
     ]
   },

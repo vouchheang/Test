@@ -20,7 +20,7 @@ function Menu() {
             <NavLink to="/">Crop cycles</NavLink>
           </li>
           <li>
-            <NavLink to="/">Accounts</NavLink>
+            <NavLink to="/account">Accounts</NavLink>
           </li>
         </ul>
       </nav>
