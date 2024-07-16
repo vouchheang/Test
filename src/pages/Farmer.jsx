@@ -5,11 +5,10 @@ import Table from "../components/Table";
 function Farmers() {
   return (
     <>
-      <h1>Hi Farmers</h1>
-    
-      <Dropdown/> 
+      <Table/>
+      <Dropdown/>
    
-     <Table/>
+     
     </>
   );
 }
