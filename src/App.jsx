@@ -13,6 +13,7 @@ export default function Root() {
           
          <div className="main">
          <div className="Menu"><Menu /></div>
+         
          <div id="detail"><Outlet /></div>
         </div>
         
