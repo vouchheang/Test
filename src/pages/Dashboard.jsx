@@ -24,7 +24,6 @@ const Dashboard = () => {
 
   return (
     <div className="dashboard-container">
-      <h2>Overview</h2>
       <div className="dashboard-stats">
         <Boxdashboard totalFarmers={totalFarmers} />
         <Boxdashboard totalFarmers={totalFarmers} />
