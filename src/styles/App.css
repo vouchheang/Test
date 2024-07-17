@@ -1,5 +1,5 @@
 body{
-  background-color: #25bbae6e;
+  background-color:#FBE0E5;
 }
 #container{
     width: 95%;
@@ -16,7 +16,7 @@ body{
 }
 #detail{
     flex: 4;
-    margin-top: -5px;
+    padding: 27px;
 }
 .btn{
     padding: 10px;
