@@ -21,7 +21,7 @@
   
   #Menu nav {
     flex: 1;
-    background-color: none;
+    background-color:white ;
     overflow: auto;
     padding-top: 1rem;
     
