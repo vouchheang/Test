@@ -1,13 +1,13 @@
 
 import React from 'react';
 
-function Boxdashboard({ totalFarmers }) {
+const Boxdashboard = ({ title, value }) => {
   return (
     <div className="dashboard-stat">
-       <p>{totalFarmers}</p>
-      <h3>Total Farmers</h3>
+      <h3>{title}</h3>
+      <p>{value}</p>
     </div>
   );
-}
+};
 
 export default Boxdashboard;
