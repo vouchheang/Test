@@ -1,5 +1,5 @@
-import Dropdown from '../components/Dropdown';
-import Table from "../components/Table";
+// import Dropdown from '../components/Dropdown';
+// import Table from "../components/Table";
 
 
 function Cropcylces() {
@@ -7,8 +7,7 @@ function Cropcylces() {
     <>
       {/* <h1>Hi Crop cylces</h1> */}
       
-      <Dropdown/> 
-     <Table/>
+     
     </>
   );
 }
