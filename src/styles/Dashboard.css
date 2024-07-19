@@ -4,7 +4,7 @@
   gap: 1rem;
 }
 .dashboard-stat {
-  background-color: rgba(243, 239, 239, 0.804);
+  background-color:white;
   padding: 4rem;
   border: 1px solid rgb(195, 195, 195);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
