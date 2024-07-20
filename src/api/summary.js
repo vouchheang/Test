@@ -45,3 +45,4 @@ export const getTotalFarmlandSize = async () => {
     throw error;
   }
 };
+

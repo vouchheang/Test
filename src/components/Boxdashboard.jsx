@@ -1,6 +1,4 @@
-
 import React from 'react';
-
 const Boxdashboard = ({ title, value }) => {
   return (
     <div className="dashboard-stat">

@@ -6,9 +6,15 @@ function Table({ headers, data }) {
   ));
 
   const tableHeaderColumnData = data.map((item, rowIndex) => (
+<<<<<<< HEAD
     <tr key={rowIndex}>
       {Object.keys(item).map((key, colIndex) => (
         <td key={colIndex}>{item[key]}</td>
+=======
+    <tr key={"Row" + rowIndex}>
+      {Object.keys(item).map((key, colIndex) => (
+        <td key={"Col" + colIndex}>{item[key].toString()}</td>
+>>>>>>> origin/main
       ))}
     </tr>
   ));
@@ -25,4 +31,8 @@ function Table({ headers, data }) {
   );
 }
 
+<<<<<<< HEAD
 export default Table;
+=======
+export default Table;
+>>>>>>> origin/main
