@@ -9,6 +9,7 @@ import App from "./App";
 import Farmland from "./pages/Farmland";
 import Cropcycles from "./pages/Crop-cycles";
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -32,7 +33,9 @@ const router = createBrowserRouter([
         element: <Account />,
       },
 
-      { path: "/crop cylces", element: <Cropcycles /> },
+      { path: "/crop cylces",
+       element: <Cropcycles /> },
+
     ],
   },
 ]);

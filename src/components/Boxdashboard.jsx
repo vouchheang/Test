@@ -1,7 +1,5 @@
-
 import React from 'react';
-
-function Boxdashboard({ totalFarmers }) {
+const Boxdashboard = ({ title, value }) => {
   return (
     <div className="dashboard-stat">
        <p>{totalFarmers}</p>

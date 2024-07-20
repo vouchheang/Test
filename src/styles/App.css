@@ -35,4 +35,7 @@ body{
     justify-content: center;
     align-items: center;
   }
- 
+.Dropdown{
+  display: flex;
+  justify-content:flex-end;
+}

@@ -21,9 +21,10 @@
   
   #Menu nav {
     flex: 1;
-    background-color: none;
+    background-color:none;
     overflow: auto;
     padding-top: 1rem;
+    margin-left: 4%;
     
   }
   
