@@ -1,19 +1,54 @@
+<<<<<<< HEAD
+body {
+  background-color: #25bbae6e;
+=======
 body{
   background-color:#d4f4db;
+>>>>>>> origin/main
 }
-#container{
-    width: 95%;
-    margin: 0 auto;
-   
+
+#container {
+  width: 95%;
+  margin: 0 auto;
+
 }
-.main{
-    width: 100%;
-    height: auto;
-    display: flex;
+
+.main {
+  width: 100%;
+  height: auto;
+  display: flex;
 }
-.Menu{
-    flex: 1;
+
+.Menu {
+  flex: 1;
 }
+<<<<<<< HEAD
+
+#detail {
+  flex: 4;
+  margin-top: -5px;
+}
+
+.btn {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.postbox {
+  width: 50%;
+  overflow: hidden;
+}
+
+.box {
+  width: 90%;
+  height: 50px;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+=======
 #detail{
     flex: 4;
     padding: 27px;
@@ -81,4 +116,5 @@ table {
   }
 
  
+>>>>>>> origin/main
 >>>>>>> origin/main

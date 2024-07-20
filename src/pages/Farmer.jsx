@@ -38,7 +38,12 @@ const Farmers = () => {
 
   return (
     <>
-    <Dropdown/>
+
+    
+      <Dropdown/>
+   
+     
+
       <Table
         headers={[
           "id",
@@ -52,6 +57,7 @@ const Farmers = () => {
         ]}
         data={Farmers}
       />
+
     </>
   );
 };
