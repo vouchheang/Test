@@ -1,9 +1,9 @@
-import ActiveDropdown from "../components/ActiveDropdown";
+// import Table from "../components/Table";
 
 function Farmland() {
   return (
     <>
-    <ActiveDropdown/>
+   
       
     </>
   );
