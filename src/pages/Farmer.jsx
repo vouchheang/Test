@@ -1,13 +1,7 @@
-<<<<<<< HEAD
-import Dropdown from '../components/Dropdown';
-
-
-=======
 import React, { useState, useEffect } from "react";
 import Table from "../components/Table";
 import { getFarmers } from "../api/Farmer";
 import "../styles/Table.css";
->>>>>>> origin/main
 
 const Farmers = () => {
   const [Farmers, setFarmers] = useState([]);
@@ -43,12 +37,6 @@ const Farmers = () => {
   }, []);
 
   return (
-<<<<<<< HEAD
-    <div className='Dropdown'>
-      <Dropdown/>
-     
-    </div>
-=======
     <>
       <Table
         headers={[
@@ -64,7 +52,6 @@ const Farmers = () => {
         data={Farmers}
       />
     </>
->>>>>>> origin/main
   );
 };
 
