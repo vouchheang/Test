@@ -23,7 +23,9 @@ const Cropcycles = () => {
     fetchData();
   }, []);
 
-  const handleChange = (event) => {
+
+  
+  const onChange = (event) => {
     const selectedValue = event.target.value;
     console.log("Selected value:", selectedValue);
     
@@ -37,7 +39,7 @@ const Cropcycles = () => {
   return (
     <div className="App">
       <div className="dropdown-container">
-        <select onChange={handleChange}>
+        <select onChange={onChange}>
           <option value="All">All</option>
           <option value="Active">Active</option>
           <option value="Inactive">Inactive</option>
@@ -48,3 +50,4 @@ const Cropcycles = () => {
 };
 
 export default Cropcycles;
+
